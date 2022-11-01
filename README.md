@@ -4,7 +4,7 @@
 [![Code Climate](https://codeclimate.com/github/ungtb10d/ssh-hull/badges/gpa.svg)](https://codeclimate.com/github/ungtb10d/ssh-hull)
 [![Test Coverage](https://codeclimate.com/github/ungtb10d/ssh-hull/badges/coverage.svg)](https://codeclimate.com/github/ungtb10d/ssh-hull/coverage)
 
-## SSH Tunnel
+## SSH hull
 
 A Ruby/GTK3 gem to manage ssh hulls
 
