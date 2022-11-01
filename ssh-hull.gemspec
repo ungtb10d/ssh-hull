@@ -6,10 +6,10 @@ Gem::Specification.new do |s|
   s.name        = 'ssh-hull'
   s.version     = SSHTunnel::VERSION::STRING
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ['Nicolas Rodriguez']
-  s.email       = ['nicoladmin@free.fr']
+  s.authors     = ['Anders Pippi Tednes']
+  s.email       = ['theblckswan@protonmail.com']
   s.homepage    = 'https://github.com/ungtb10d/ssh-hull'
-  s.summary     = 'A Ruby/GTK3 gem to manage SSH tunnels'
+  s.summary     = 'A Ruby/GTK3 gem to manage ssh hulls'
   s.license     = 'MIT'
 
   s.required_ruby_version = '>= 2.7.0'

@@ -12,7 +12,7 @@
     <property name="program-name">SSH Tunnel</property>
     <property name="website">https://github.com/ungtb10d/ssh-hull</property>
     <property name="website-label" translatable="yes">https://github.com/ungtb10d/ssh-hull</property>
-    <property name="authors">Nicolas Rodriguez &lt;nicoladmin@free.fr&gt;</property>
+    <property name="authors">Anders Pippi Tednes &lt;theblckswan@protonmail.com&gt;</property>
     <property name="logo-icon-name">network-idle</property>
     <property name="license-type">mit-x11</property>
     <child internal-child="vbox">

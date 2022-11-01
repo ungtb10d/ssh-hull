@@ -6,7 +6,7 @@
 
 ## SSH Tunnel
 
-A Ruby/GTK3 gem to manage SSH tunnels
+A Ruby/GTK3 gem to manage ssh hulls
 
 ## Installation
 

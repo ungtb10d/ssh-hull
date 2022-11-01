@@ -4,7 +4,7 @@ grade: devel
 confinement: devmode
 summary: SSH Tunnel Manager
 description: |
-  A Ruby/GTK3 application to manage SSH Tunnels.
+  A Ruby/GTK3 application to manage ssh hulls.
 
 apps:
   ssh-hull:
