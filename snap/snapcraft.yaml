@@ -1,14 +1,15 @@
 name: ssh-hull
 version: '1.0.0'
-grade: devel
-confinement: devmode
-summary: SSH Tunnel Manager
+grade: stable
+confinement: strict
+summary: SSH hull Manager
+base: core18
 description: |
   A Ruby/GTK3 application to manage ssh hulls.
 
 apps:
   ssh-hull:
-    command: desktop-launch $SNAP/bin/ssh-hull
+    command: ssh-hull
     plugs:
       - home
       - desktop
