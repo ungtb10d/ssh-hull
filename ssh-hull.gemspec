@@ -4,7 +4,7 @@ require_relative 'lib/ssh-hull/version'
 
 Gem::Specification.new do |s|
   s.name        = 'ssh-hull'
-  s.version     = SSHTunnel::VERSION::STRING
+  s.version     = 2.00
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Anders Pippi Tednes']
   s.email       = ['theblckswan@protonmail.com']
