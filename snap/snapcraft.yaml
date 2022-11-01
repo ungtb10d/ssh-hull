@@ -1,4 +1,4 @@
-name: ssh-tunnel
+name: ssh-hull
 version: '1.0.0'
 grade: devel
 confinement: devmode
@@ -7,8 +7,8 @@ description: |
   A Ruby/GTK3 application to manage SSH Tunnels.
 
 apps:
-  ssh-tunnel:
-    command: desktop-launch $SNAP/bin/ssh-tunnel
+  ssh-hull:
+    command: desktop-launch $SNAP/bin/ssh-hull
     plugs:
       - home
       - desktop
@@ -17,8 +17,8 @@ apps:
       - x11
 
 parts:
-  ssh-tunnel:
-    source: https://github.com/ungtb10d/ssh-tunnel.git
+  ssh-hull:
+    source: https://github.com/ungtb10d/ssh-hull.git
     source-type: git
     plugin: ruby
     ruby-version: 2.5.5
@@ -44,5 +44,5 @@ parts:
     override-build: |
       snapcraftctl build
       git checkout snap/snapcraft.yaml
-      gem build ssh-tunnel.gemspec
-      gem install ssh-tunnel-*.gem --env-shebang
+      gem build ssh-hull.gemspec
+      gem install ssh-hull-*.gem --env-shebang

@@ -1,14 +1,14 @@
 # frozen_string_literal: true
 
-require_relative 'lib/ssh-tunnel/version'
+require_relative 'lib/ssh-hull/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'ssh-tunnel'
+  s.name        = 'ssh-hull'
   s.version     = SSHTunnel::VERSION::STRING
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Nicolas Rodriguez']
   s.email       = ['nicoladmin@free.fr']
-  s.homepage    = 'https://github.com/ungtb10d/ssh-tunnel'
+  s.homepage    = 'https://github.com/ungtb10d/ssh-hull'
   s.summary     = 'A Ruby/GTK3 gem to manage SSH tunnels'
   s.license     = 'MIT'
 
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files = %x(git ls-files).split("\n")
 
   s.bindir      = 'exe'
-  s.executables = ['ssh-tunnel']
+  s.executables = ['ssh-hull']
 
   s.add_runtime_dependency 'activemodel', '>= 5.2'
   s.add_runtime_dependency 'activesupport', '>= 5.2'

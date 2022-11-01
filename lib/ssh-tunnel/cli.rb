@@ -42,7 +42,7 @@ module SSHTunnel
           end
         end
 
-        parser.banner = 'ssh-tunnel [options]'
+        parser.banner = 'ssh-hull [options]'
         parser.on_tail '-h', '--help', 'Show help' do
           puts parser
           exit 1
@@ -56,7 +56,7 @@ module SSHTunnel
         if @opts[:config_file]
           raise ArgumentError, "No such file #{@opts[:config_file]}" unless File.exist?(@opts[:config_file])
         else
-          @opts[:config_file] = Pathname.new(File.expand_path('~/.config/ssh-tunnel/config.json'))
+          @opts[:config_file] = Pathname.new(File.expand_path('~/.config/ssh-hull/config.json'))
         end
       end
 

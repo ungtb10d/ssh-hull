@@ -9,7 +9,7 @@ module SSHTunnel
 
       # rubocop:disable Metrics/MethodLength
       def initialize
-        super 'com.ungtb10d.ssh-tunnel', Gio::ApplicationFlags::FLAGS_NONE
+        super 'com.ungtb10d.ssh-hull', Gio::ApplicationFlags::FLAGS_NONE
 
         @config = SSHTunnel.config
 

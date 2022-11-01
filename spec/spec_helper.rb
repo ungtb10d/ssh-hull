@@ -28,4 +28,4 @@ RSpec.configure do |config|
   end
 end
 
-require 'ssh-tunnel'
+require 'ssh-hull'

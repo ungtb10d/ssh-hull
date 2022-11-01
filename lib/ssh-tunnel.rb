@@ -35,7 +35,7 @@ require 'ruby2_keywords'
 
 require 'zeitwerk'
 loader = Zeitwerk::Loader.for_gem
-loader.inflector.inflect 'ssh-tunnel' => 'SSHTunnel'
+loader.inflector.inflect 'ssh-hull' => 'SSHTunnel'
 loader.inflector.inflect 'ui' => 'UI'
 loader.inflector.inflect 'cli' => 'CLI'
 loader.setup

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/com/ungtb10d/ssh-tunnel">
+  <gresource prefix="/com/ungtb10d/ssh-hull">
     <file preprocess="xml-stripblanks">ui/application_window.glade</file>
     <file preprocess="xml-stripblanks">ui/about_window.glade</file>
     <file preprocess="xml-stripblanks">ui/hosts/new_window.glade</file>

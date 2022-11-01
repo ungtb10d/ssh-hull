@@ -12,7 +12,7 @@ module SSHTunnel
 
           def init
             # Set the template from the resources binary
-            set_template resource: '/com/ungtb10d/ssh-tunnel/ui/application_window.glade'
+            set_template resource: '/com/ungtb10d/ssh-hull/ui/application_window.glade'
             super
 
             bind_template_child 'hosts_scrolled_window'

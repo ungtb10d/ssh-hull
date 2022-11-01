@@ -59,4 +59,4 @@ Style/TrailingCommaInHashLiteral:
 
 Naming/FileName:
   Exclude:
-    - lib/ssh-tunnel.rb
+    - lib/ssh-hull.rb
